@@ -2,6 +2,9 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page Title</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
@@ -9,13 +12,16 @@
     <!-- bootstrap  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- logo  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         * {
             padding: 0px;
             margin: 0px;
         }
-        :root{
-            --colorr:#f23e36;
+
+        :root {
+            --colorr: #f23e36;
         }
 
         .block {
@@ -23,17 +29,24 @@
             justify-content: center;
             align-items: center;
         }
-        .blockColumn{
+
+        .blockColumn {
             flex-direction: column;
         }
 
         .block1 button {
             display: none !important;
         }
-        .marginRight{
-            margin: 20px 0px !important; 
+
+        .marginRight {
+            margin: 20px 0px !important;
         }
-        button{
+
+        .marginSide {
+            margin: 0px 8%;
+        }
+
+        button {
             background-color: var(--colorr);
             color: white;
             padding: 10px;
@@ -41,6 +54,35 @@
             border: none;
             border-radius: 10px;
             cursor: pointer;
+        }
+
+        .block7Content {
+            box-shadow: 0px 0px 25px 0px rgb(0 0 0 / 60%);
+            border-radius: 10px;
+            padding: 0px;
+        }
+
+        .block7Content img {
+            border-radius: 10px;
+        }
+
+        .block7Content button {
+            background-color: #fff;
+            border: 2px solid rgb(0, 132, 255);
+            color: rgb(0, 132, 255);
+            width: 50%;
+            padding: 6px 1px;
+        }
+
+        .block11Number {
+            color: var(--colorr);
+            font-size: 20px;
+            text-align: center;
+            padding: 10px 1px;
+            margin: 15px 15px 10px 0px;
+            border: 2px solid var(--colorr);
+            border-radius: 30px;
+            box-shadow: 0px 0px 25px 0px rgba(102, 102, 102, 0.6);
         }
     </style>
 </head>
@@ -126,57 +168,217 @@
 
     <!-------------------------------------------- BLOCK 2 -------------------------------------------->
 
-        <div class="block blockColumn">
-            <div class="row col-sm-12 marginRight mt-3">
-                <div class="block col">
-                    <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fpmv2-jobs__1638365336598.png&w=48&q=75"
-                        alt="">
-                    <h4 class="ms-3 me-3">Jobs in 1000+</h4>
-                    <span>Top Companies</span>
-                </div>
-                <div class="block col">
-                    <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fpmv2-jobs__1638365336598.png&w=48&q=75"
-                        alt="">
-                    <h4 class="ms-3 me-3">50%</h4>
-                        <span>average Hike</span>
-                </div>
-                <div class="block col">
-                    <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fpmv2-jobs__1638365336598.png&w=48&q=75"
-                        alt="">
-                    <h4 class="ms-3 me-3">Top 1%</h4>
-                    <span>Global Universities</span>
+    <div class="block blockColumn">
+        <div class="row col-12 marginRight mt-3">
+            <div class="block col-sm-4">
+                <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fpmv2-jobs__1638365336598.png&w=48&q=75"
+                    alt="">
+                <h4 class="ms-3 me-3">Jobs in 1000+</h4>
+                <span>Top Companies</span>
+            </div>
+            <div class="block col-sm-4">
+                <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fpmv2-jobs__1638365336598.png&w=48&q=75"
+                    alt="">
+                <h4 class="ms-3 me-3">50%</h4>
+                <span>average Hike</span>
+            </div>
+            <div class="block col-sm-4">
+                <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fpmv2-jobs__1638365336598.png&w=48&q=75"
+                    alt="">
+                <h4 class="ms-3 me-3">Top 1%</h4>
+                <span>Global Universities</span>
+            </div>
+        </div>
+        <button>Explore Our Courses</button>
+    </div>
+
+    <!-------------------------------------------- BLOCK 3 -------------------------------------------->
+
+    <div class="block blockColumn">
+        <div class="row col-sm-12 marginRight block p-2">
+            <div class="col marginSide">
+                <h2>Our Top University Partners</h2>
+                <div class="slider center">
+                    <div>
+                        <h3>1</h3>
+                    </div>
+                    <div>
+                        <h3>2</h3>
+                    </div>
+                    <div>
+                        <h3>3</h3>
+                    </div>
+                    <div>
+                        <h3>4</h3>
+                    </div>
+                    <div>
+                        <h3>5</h3>
+                    </div>
+                    <div>
+                        <h3>6</h3>
+                    </div>
                 </div>
             </div>
-            <button>Explore Our Courses</button>
         </div>
+    </div>
 
-        <!-------------------------------------------- BLOCK 3 -------------------------------------------->
+    <!-------------------------------------------- BLOCK 4 -------------------------------------------->
 
-        <!-------------------------------------------- BLOCK 4 -------------------------------------------->
-        
-        <!-------------------------------------------- BLOCK 5 -------------------------------------------->
-        
-        <!-------------------------------------------- BLOCK 6 -------------------------------------------->
-        
-        <!-------------------------------------------- BLOCK 7 -------------------------------------------->
+    <!-------------------------------------------- BLOCK 5 -------------------------------------------->
 
-        <div class="block blockColumn">
-            <div class="row col-sm-12 marginRight mt-3">
-                <div class="col-sm-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dolore voluptates, voluptatibus debitis ducimus a fuga culpa, deserunt aliquam doloremque accusamus accusantium architecto beatae! Provident nobis culpa voluptates earum suscipit!</div>
-                <div class="col-sm-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dolore voluptates, voluptatibus debitis ducimus a fuga culpa, deserunt aliquam doloremque accusamus accusantium architecto beatae! Provident nobis culpa voluptates earum suscipit!</div>
-                <div class="col-sm-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dolore voluptates, voluptatibus debitis ducimus a fuga culpa, deserunt aliquam doloremque accusamus accusantium architecto beatae! Provident nobis culpa voluptates earum suscipit!</div>
+    <!-------------------------------------------- BLOCK 6 -------------------------------------------->
+
+    <!-------------------------------------------- BLOCK 7 -------------------------------------------->
+
+    <div class="block blockColumn">
+        <h2>upGrad Webinars</h2>
+        <div class="row col-sm-12 marginRight mt-3 block p-2">
+
+            <!-- block - 7 - Content - 1 -->
+            <div class="col-sm-3 m-2 block7Content">
+                <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fds_card__1643637881250.png&w=1920&q=75"
+                    alt="" style="height: 100%; width: 100%;">
+                <div class="mt-1 p-2">
+                    <h4 class="w-100">Data Science</h4>
+                    <span>Discover the newest trends from data science experts, big data practitioners, and industry
+                        leaders.</span>
+                    <div class="mt-2"><button>Enroll now</button></div>
+                </div>
             </div>
-            <button>VIEW ALL UPGRAD WEBINARS</button>
+            <!-- block - 7 - Content - 2 -->
+            <div class="col-sm-3 m-2 block7Content">
+                <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fds_card__1643637881250.png&w=1920&q=75"
+                    alt="" style="height: 100%; width: 100%;">
+                <div class="mt-1 p-2">
+                    <h4 class="w-100">Data Science</h4>
+                    <span>Discover the newest trends from data science experts, big data practitioners, and industry
+                        leaders.</span>
+                    <div class="mt-2"><button>Enroll now</button></div>
+                </div>
+            </div>
+            <!-- block - 7 - Content - 3 -->
+            <div class="col-sm-3 m-2 block7Content">
+                <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fds_card__1643637881250.png&w=1920&q=75"
+                    alt="" style="height: 100%; width: 100%;">
+                <div class="mt-1 p-2">
+                    <h4 class="w-100">Data Science</h4>
+                    <span>Discover the newest trends from data science experts, big data practitioners, and industry
+                        leaders.</span>
+                    <div class="mt-2"><button>Enroll now</button></div>
+                </div>
+            </div>
         </div>
+        <button>VIEW ALL UPGRAD WEBINARS</button>
+    </div>
 
+    <!-------------------------------------------- BLOCK 8 -------------------------------------------->
+
+
+    <!-------------------------------------------- BLOCK 9 -------------------------------------------->
+
+    <div class="block blockColumn mt-5">
+        <h2>Where our Alumni Work</h2>
+        <div class="row col-sm-12 block p-2">
+            <div class="col"><img
+                    src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Famazon_colour_240X80__1617794797691.png&w=256&q=75"
+                    alt="" style="height: 100%; width: 100%;"></div>
+            <div class="col"><img
+                    src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fola.png&w=256&q=75"
+                    alt="" style="height: 100%; width: 100%;"></div>
+            <div class="col"><img
+                    src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fespndigitalmedia.png&w=256&q=75"
+                    alt="" style="height: 100%; width: 100%;"></div>
+            <div class="col"><img
+                    src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fflipkart_240x80__1617713965876.png&w=256&q=75"
+                    alt="" style="height: 100%; width: 100%;"></div>
+            <div class="col"><img
+                    src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fjio_240x80__1604486675523.png&w=256&q=75"
+                    alt="" style="height: 100%; width: 100%;"></div>
+            <div class="col"><img
+                    src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Famazon_colour_240X80__1617794797691.png&w=256&q=75"
+                    alt="" style="height: 100%; width: 100%;"></div>
+            <div class="col"><img
+                    src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fjio_240x80__1604486675523.png&w=256&q=75"
+                    alt="" style="height: 100%; width: 100%;"></div>
+            <div class="col"><img
+                    src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fflipkart_240x80__1617713965876.png&w=256&q=75"
+                    alt="" style="height: 100%; width: 100%;"></div>
+            <div class="col"><img
+                    src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fola.png&w=256&q=75"
+                    alt="" style="height: 100%; width: 100%;"></div>
+            <div class="col"><img
+                    src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Famazon_colour_240X80__1617794797691.png&w=256&q=75"
+                    alt="" style="height: 100%; width: 100%;"></div>
+        </div>
+    </div>
+
+    <!-------------------------------------------- BLOCK 10 -------------------------------------------->
+
+    <!-------------------------------------------- BLOCK 11 -------------------------------------------->
+
+    <div class="block blockColumn">
+        <div class="row col-sm-12 marginRight block p-2">
+            <div class="col marginSide">
+                <h2 class="mt-5">upGrad Learner Support</h2>
+                <div class="col-sm-10 block">
+                    <div class="col block11Number"><i class="fa fa-phone"
+                            style="font-size:26px;margin-right:10px ; "></i>1800 210 2020</div>
+                    <div class="col block11Number"><i class="fa fa-phone"
+                            style="font-size:26px;margin-right:10px ; "></i>+91 22 6505 4631</div>
+                </div>
+                <span>Call us between 7 AM - 12 AM</span>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------- BLOCK 12 -------------------------------------------->
+
+    <div class="block blockColumn">
+        <div class="row col-sm-12 marginRight block p-2">
+            <div class="col marginSide"
+                style="box-shadow: 0px 0px 25px 0px rgba(102, 102, 102, 0.6); border-radius: 8px;">
+                <p class="mt-2">Disclaimer:</p>
+                <p>upGrad is India’s largest online higher education company, as per monthly visit data and total visits
+                    data for the last 28 days received from similar web, as on April 13, 2020.</p>
+
+                <p>Deakin University CRICOS Provider Code 00113B.</p>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------- SCRIPT -------------------------------------------->
+    <script>
+        $('.autoplay').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+        });
+
+        $('.center').slick({
+            centerMode: true,
+            centerPadding: '60px',
+            slidesToShow: 3,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+    </script>
 </body>
-<script>
-    $('.autoplay').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 2000,
-    });
-</script>
 
 </html>
