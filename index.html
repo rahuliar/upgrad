@@ -34,7 +34,7 @@
             flex-direction: column;
         }
 
-        .block1 button {
+        button.slick-arrow {
             display: none !important;
         }
 
@@ -83,6 +83,25 @@
             border: 2px solid var(--colorr);
             border-radius: 30px;
             box-shadow: 0px 0px 25px 0px rgba(102, 102, 102, 0.6);
+        }
+
+        .block3 .slick-slide {
+            width: 200px !important;
+            height: 80px;
+        }
+
+        .block8 .slick-slide {
+            box-shadow: 0px 0px 25px 0px rgba(102, 102, 102, 0.6);
+            width: 180px !important;
+            border-radius: 10px;
+            margin: 10px 20px !important;
+            height: 200px;
+        }
+        .block6 .slick-slide{
+            height: fit-content;
+        }
+        .block8 .dp {
+            clip-path: circle(50%);
         }
     </style>
 </head>
@@ -194,17 +213,35 @@
 
     <!-------------------------------------------- BLOCK 3 -------------------------------------------->
 
-    <div class="block blockColumn">
+    <div class="block blockColumn block1 block3">
         <div class="row col-sm-12 marginRight block p-2">
             <div class="col marginSide">
                 <h2>Our Top University Partners</h2>
-                <div class="slider center" style="overflow: hidden; width: 80vw;">
-                    <div style="border: 2px solid red; width: 50px;"><h1>1</h1></div>
-                    <div><h1>1</h1></div>
-                    <div><h1>1</h1></div>
-                    <div><h1>1</h1></div>
-                    <div><h1>1</h1></div>
-                    <div><h1>1</h1></div>
+                <div class="slider center marginRight" style="overflow: hidden; width: 80vw;">
+                    <div style="margin:0px 10px; padding:10px;">
+                        <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fiimk__1645005417153.png&w=256&q=75"
+                            alt="" style="width:100%; height: 100%;">
+                    </div>
+                    <div style="margin:0px 10px; padding:10px;">
+                        <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fiiitb_logo__1632295019309.png&w=256&q=75"
+                            alt="" style="width:100%; height: 100%;">
+                    </div>
+                    <div style="margin:0px 10px; padding:10px;">
+                        <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fduke_grey.png&w=256&q=75"
+                            alt="" style="width:100%; height: 100%;">
+                    </div>
+                    <div style="margin:0px 10px; padding:10px;">
+                        <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fcaltech_240x100__1641981761441.png&w=256&q=75"
+                            alt="" style="width:100%; height: 100%;">
+                    </div>
+                    <div style="margin:0px 10px; padding: 10px;">
+                        <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fpurdue__1644833791897.png&w=256&q=75"
+                            alt="" style="width:100%; height: 100%;">
+                    </div>
+                    <div style="margin:0px 10px; padding:10px;">
+                        <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fiitmadraslogo__1593672924654.png&w=256&q=75"
+                            alt="" style="width:100%; height: 100%;">
+                    </div>
                 </div>
             </div>
         </div>
@@ -214,15 +251,96 @@
 
     <!-------------------------------------------- BLOCK 5 -------------------------------------------->
 
+    <div class="block blockColumn block1">
+        <div class="row col-sm-12 marginRight block p-2">
+            <div class="col marginSide">
+                <h2>Our Top University Partners</h2>
+            </div>
+        </div>
+    </div>
+
     <!-------------------------------------------- BLOCK 6 -------------------------------------------->
+    <div class="block blockColumn block6 ">
+        <div class="row col-sm-12 marginRight block p-2">
+            <div class="col marginSide">
+                <h2>Explore Free Courses</h2>
+                <div class="slider center marginRight" style="overflow: hidden; width: 80vw;">
+                    <div class="col-sm-3 m-2 block7Content">
+                        <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2F720x400_DSML__1640685198472.png&w=1920&q=75"
+                            alt="" style="height: 100%; width: 100%;">
+                        <div class="mt-1 p-2">
+                            <h4 class="w-100">Data Science & Machine Learning
+                            </h4>
+                            <span>
+                                Build your foundation in one of the hottest industry of the 21st century</span>
+                            <div class="mt-2"><button>Know More</button></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 m-2 block7Content">
+                        <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2F720x400_Management__1640684894622.png&w=1920&q=75"
+                            alt="" style="height: 100%; width: 100%;">
+                            <div class="mt-1 p-2">
+                                <h4 class="w-100">Data Science & Machine Learning
+                                </h4>
+                                <span>
+                                    Build your foundation in one of the hottest industry of the 21st century</span>
+                                <div class="mt-2"><button>Know More</button></div>
+                            </div>
+                    </div>
+                    <div class="col-sm-3 m-2 block7Content">
+                        <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2F720x400Technology__1640776472617.png&w=1920&q=75"
+                            alt="" style="height: 100%; width: 100%;">
+                            <div class="mt-1 p-2">
+                                <h4 class="w-100">Data Science & Machine Learning
+                                </h4>
+                                <span>
+                                    Build your foundation in one of the hottest industry of the 21st century</span>
+                                <div class="mt-2"><button>Know More</button></div>
+                            </div>
+                    </div>
+                    <div class="col-sm-3 m-2 block7Content">
+                        <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fcareer_planning__1642158390901.png&w=1920&q=75"
+                            alt="" style="height: 100%; width: 100%;">
+                            <div class="mt-1 p-2">
+                                <h4 class="w-100">Data Science & Machine Learning
+                                </h4>
+                                <span>
+                                    Build your foundation in one of the hottest industry of the 21st century</span>
+                                <div class="mt-2"><button>Know More</button></div>
+                            </div>
+                    </div>
+                    <div class="col-sm-3 m-2 block7Content">
+                        <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fmarketing__1642158907941.png&w=1920&q=75"
+                            alt="" style="height: 100%; width: 100%;">
+                            <div class="mt-1 p-2">
+                                <h4 class="w-100">Data Science & Machine Learning
+                                </h4>
+                                <span>
+                                    Build your foundation in one of the hottest industry of the 21st century</span>
+                                <div class="mt-2"><button>Know More</button></div>
+                            </div>
+                    </div>
+                    <div class="col-sm-3 m-2 block7Content">
+                        <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Flaw__1643809851236.png&w=1920&q=75"
+                            alt="" style="height: 100%; width: 100%;">
+                            <div class="mt-1 p-2">
+                                <h4 class="w-100">Data Science & Machine Learning
+                                </h4>
+                                <span>
+                                    Build your foundation in one of the hottest industry of the 21st century</span>
+                                    <div class="mt-2"><button style="display:block">Know More</button></div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-------------------------------------------- BLOCK 7 -------------------------------------------->
 
     <div class="block blockColumn">
         <h2>upGrad Webinars</h2>
-        <div class="row col-sm-12 marginRight mt-3 block p-2">
-
-            <!-- block - 7 - Content - 1 -->
+        <div class="slider center marginRight" style="overflow: hidden; width: 80vw;">
             <div class="col-sm-3 m-2 block7Content">
                 <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fds_card__1643637881250.png&w=1920&q=75"
                     alt="" style="height: 100%; width: 100%;">
@@ -233,7 +351,6 @@
                     <div class="mt-2"><button>Enroll now</button></div>
                 </div>
             </div>
-            <!-- block - 7 - Content - 2 -->
             <div class="col-sm-3 m-2 block7Content">
                 <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fds_card__1643637881250.png&w=1920&q=75"
                     alt="" style="height: 100%; width: 100%;">
@@ -244,7 +361,6 @@
                     <div class="mt-2"><button>Enroll now</button></div>
                 </div>
             </div>
-            <!-- block - 7 - Content - 3 -->
             <div class="col-sm-3 m-2 block7Content">
                 <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fds_card__1643637881250.png&w=1920&q=75"
                     alt="" style="height: 100%; width: 100%;">
@@ -261,6 +377,73 @@
 
     <!-------------------------------------------- BLOCK 8 -------------------------------------------->
 
+
+    <div class="block blockColumn block8 block1 ">
+        <div class="row col-sm-12 marginRight block p-2">
+            <div class="col marginSide">
+                <h2>Our Top University Partners</h2>
+                <div class="slider center marginRight" style="overflow: hidden; width: 80vw;">
+                    <div style="margin:0px 10px; padding:10px; width:10px !important;">
+                        <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Faa__1600125771940.jpg&w=64&q=75"
+                            alt="" class="dp">
+                        <h5>Amarpal Singh</h5>
+                        <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fss__1600125801336.png&w=128&q=75"
+                            alt="">
+                    </div>
+                    <div style="margin:0px 10px; padding:10px; width:10px !important;">
+                        <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fff__1600125870959.jpg&w=64&q=75"
+                            alt="" class="dp">
+                        <h5>Amarpal Singh</h5>
+                        <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fww__1600125894504.png&w=128&q=75"
+                            alt="">
+                    </div>
+                    <div style="margin:0px 10px; padding:10px; width:10px !important;">
+                        <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Faa__1600125771940.jpg&w=64&q=75"
+                            alt="" class="dp">
+                        <h5>Amarpal Singh</h5>
+                        <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fss__1600125801336.png&w=128&q=75"
+                            alt="">
+                    </div>
+                    <div style="margin:0px 10px; padding:10px; width:10px !important;">
+                        <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fff__1600125870959.jpg&w=64&q=75"
+                            alt="" class="dp">
+                        <h5>Amarpal Singh</h5>
+                        <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fww__1600125894504.png&w=128&q=75"
+                            alt="">
+                    </div>
+                    <div style="margin:0px 10px; padding:10px; width:10px !important;">
+                        <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Faa__1600125771940.jpg&w=64&q=75"
+                            alt="" class="dp">
+                        <h5>Amarpal Singh</h5>
+                        <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fss__1600125801336.png&w=128&q=75"
+                            alt="">
+                    </div>
+                    <div style="margin:0px 10px; padding:10px; width:10px !important;">
+                        <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fff__1600125870959.jpg&w=64&q=75"
+                            alt="" class="dp">
+                        <h5>Amarpal Singh</h5>
+                        <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fww__1600125894504.png&w=128&q=75"
+                            alt="">
+                    </div>
+                    <div style="margin:0px 10px; padding:10px; width:10px !important;">
+                        <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Faa__1600125771940.jpg&w=64&q=75"
+                            alt="" class="dp">
+                        <h5>Amarpal Singh</h5>
+                        <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fss__1600125801336.png&w=128&q=75"
+                            alt="">
+                    </div>
+                    <div style="margin:0px 10px; padding:10px; width:10px !important;">
+                        <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fff__1600125870959.jpg&w=64&q=75"
+                            alt="" class="dp">
+                        <h5>Amarpal Singh</h5>
+                        <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fww__1600125894504.png&w=128&q=75"
+                            alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-------------------------------------------- BLOCK 9 -------------------------------------------->
 
@@ -332,6 +515,8 @@
             </div>
         </div>
     </div>
+    <!-------------------------------------------- FOOTER-------------------------------------------->
+
     <!-------------------------------------------- SCRIPT -------------------------------------------->
     <script>
         $('.autoplay').slick({
