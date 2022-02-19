@@ -82,6 +82,7 @@
             margin: 15px 15px 10px 0px;
             border: 2px solid var(--colorr);
             border-radius: 30px;
+            width: 80%;
             box-shadow: 0px 0px 25px 0px rgba(102, 102, 102, 0.6);
         }
 
@@ -97,11 +98,81 @@
             margin: 10px 20px !important;
             height: 200px;
         }
-        .block6 .slick-slide{
+        .block4{
+            padding: none !important;
+        }
+        .block4Content{
+            margin: 100px 0px 0px 0px !important;
+            border-radius: 20px 20px 0px 0px;
+            background-color:whitesmoke;
+            padding: 18px;
+        }
+        .block5 .slick-slide {
+            padding: 10px !important;
+            height: 200px;
+        }
+
+        .block5 button {
+            width: 50%;
+            background-color: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+
+        .block6 .slick-slide {
             height: fit-content;
         }
+
         .block8 .dp {
             clip-path: circle(50%);
+        }
+
+        footer ul {
+            list-style: none;
+        }
+
+        footer li {
+            margin: 14px 0px;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: whitesmoke;
+        }
+
+        footer a:hover {
+            color: var(--colorr);
+        }
+
+        footer a .fa:hover {
+            color: white;
+        }
+
+        footer button {
+            height: 50px;
+            width: 200px;
+            border-radius: 20px;
+        }
+        @media (max-width:590px) {
+           .block4 .slider.center.marginRight{
+               height: 400px !important;
+           }
+           .block1{
+               font-size: 7px;
+           }
+           button{
+               width: 60%;
+           }
+           .block5 button{
+               font-size: 14px;
+           }
+           .block11Number{
+               font-size: 12px;
+               width: 100%;
+           }
+           .block8{
+               display: none;
+           }
         }
     </style>
 </head>
@@ -217,7 +288,7 @@
         <div class="row col-sm-12 marginRight block p-2">
             <div class="col marginSide">
                 <h2>Our Top University Partners</h2>
-                <div class="slider center marginRight" style="overflow: hidden; width: 80vw;">
+                <div class="slider center marginRight" style="width:85vw; box-shadow:0px 0px 25px 0px grey;">
                     <div style="margin:0px 10px; padding:10px;">
                         <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fiimk__1645005417153.png&w=256&q=75"
                             alt="" style="width:100%; height: 100%;">
@@ -248,13 +319,328 @@
     </div>
 
     <!-------------------------------------------- BLOCK 4 -------------------------------------------->
+    <div class="block blockColumn block4 block1">
+        <div class="row col-sm-12 marginRight block">
+            <div class="col marginSide" style="margin-bottom: 50px;">
+                <div class="slider center marginRight" style="width:85vw; height: 320px; box-shadow:0px 0px 25px 0px grey;">
+                    <div
+                        style="margin:0px 10px; width:10px !important; background-image: url(https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2F720x400_DSML__1640685198472.png&w=1920&q=75);">
+                        <div class="block4Content">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <img src="https://ik.imagekit.io/upgrad1/marketing-platform-assets/sprites%2Fimages/l__1600085698327.png"
+                                        alt="">
+                                </div>
+                                <div class=" col">
+                                    <h6 class="ps-1 border-start border-light">Liverpool John Moores University</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-sm-3">
+                                    <h6>MBA</h6>
+                                </div>
+                                <div class=" col">
+                                    <h6 class="ps-1 border-start border-light">Liverpool John Moores University</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4 p-2 border-dark border-top text-center">VIEW PROGRAM</div>
+                        </div>
+                    </div>
+                    <div
+                        style="margin:0px 10px; width:10px !important; background-image: url(https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fmarketing__1642158907941.png&w=1920&q=75);">
+                        <div class="block4Content">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <img src="https://ik.imagekit.io/upgrad1/marketing-platform-assets/sprites%2Fimages/Deakin-icon__1638857406032.png"
+                                        alt="">
+                                </div>
+                                <div class=" col">
+                                    <h6 class="ps-1 border-start border-light">Liverpool John Moores University</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-sm-3">
+                                    <h6>MBA</h6>
+                                </div>
+                                <div class=" col">
+                                    <h6 class="ps-1 border-start border-light">Liverpool John Moores University</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4 p-2 border-dark border-top text-center">VIEW PROGRAM</div>
+                        </div>
+                    </div>
+                    <div
+                        style="margin:0px 10px; width:10px !important; background-image: url(https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2F720x400_DSML__1640685198472.png&w=1920&q=75);">
+                        <div class="block4Content">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <img src="https://ik.imagekit.io/upgrad1/marketing-platform-assets/sprites%2Fimages/l__1600085698327.png"
+                                        alt="">
+                                </div>
+                                <div class=" col">
+                                    <h6 class="ps-1 border-start border-light">Liverpool John Moores University</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-sm-3">
+                                    <h6>MBA</h6>
+                                </div>
+                                <div class=" col">
+                                    <h6 class="ps-1 border-start border-light">Liverpool John Moores University</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4 p-2 border-dark border-top text-center">VIEW PROGRAM</div>
+                        </div>
+                    </div>
+                    <div
+                        style="margin:0px 10px; width:10px !important; background-image: url(https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Flaw__1643809851236.png&w=1920&q=75);">
+                        <div class="block4Content">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <img src="https://ik.imagekit.io/upgrad1/marketing-platform-assets/sprites%2Fimages/Deakin-icon__1638857406032.png"
+                                        alt="">
+                                </div>
+                                <div class=" col">
+                                    <h6 class="ps-1 border-start border-light">Liverpool John Moores University</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-sm-3">
+                                    <h6>MBA</h6>
+                                </div>
+                                <div class=" col">
+                                    <h6 class="ps-1 border-start border-light">Liverpool John Moores University</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4 p-2 border-dark border-top text-center">VIEW PROGRAM</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col marginSide" style="margin-bottom: 50px;">
+                <div class="slider center marginRight" style="width:85vw; height: 320px; box-shadow:0px 0px 25px 0px grey;">
+                    <div
+                        style="margin:0px 10px; width:10px !important; background-image: url(https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2F720x400_DSML__1640685198472.png&w=1920&q=75);">
+                        <div class="block4Content">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <img src="https://ik.imagekit.io/upgrad1/marketing-platform-assets/sprites%2Fimages/l__1600085698327.png"
+                                        alt="">
+                                </div>
+                                <div class=" col">
+                                    <h6 class="ps-1 border-start border-light">Liverpool John Moores University</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-sm-3">
+                                    <h6>MBA</h6>
+                                </div>
+                                <div class=" col">
+                                    <h6 class="ps-1 border-start border-light">Liverpool John Moores University</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4 p-2 border-dark border-top text-center">VIEW PROGRAM</div>
+                        </div>
+                    </div>
+                    <div
+                        style="margin:0px 10px; width:10px !important; background-image: url(https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fmarketing__1642158907941.png&w=1920&q=75);">
+                        <div class="block4Content">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <img src="https://ik.imagekit.io/upgrad1/marketing-platform-assets/sprites%2Fimages/Deakin-icon__1638857406032.png"
+                                        alt="">
+                                </div>
+                                <div class=" col">
+                                    <h6 class="ps-1 border-start border-light">Liverpool John Moores University</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-sm-3">
+                                    <h6>MBA</h6>
+                                </div>
+                                <div class=" col">
+                                    <h6 class="ps-1 border-start border-light">Liverpool John Moores University</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4 p-2 border-dark border-top text-center">VIEW PROGRAM</div>
+                        </div>
+                    </div>
+                    <div
+                        style="margin:0px 10px; width:10px !important; background-image: url(https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2F720x400_DSML__1640685198472.png&w=1920&q=75);">
+                        <div class="block4Content">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <img src="https://ik.imagekit.io/upgrad1/marketing-platform-assets/sprites%2Fimages/l__1600085698327.png"
+                                        alt="">
+                                </div>
+                                <div class=" col">
+                                    <h6 class="ps-1 border-start border-light">Liverpool John Moores University</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-sm-3">
+                                    <h6>MBA</h6>
+                                </div>
+                                <div class=" col">
+                                    <h6 class="ps-1 border-start border-light">Liverpool John Moores University</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4 p-2 border-dark border-top text-center">VIEW PROGRAM</div>
+                        </div>
+                    </div>
+                    <div
+                        style="margin:0px 10px; width:10px !important; background-image: url(https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Flaw__1643809851236.png&w=1920&q=75);">
+                        <div class="block4Content">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <img src="https://ik.imagekit.io/upgrad1/marketing-platform-assets/sprites%2Fimages/Deakin-icon__1638857406032.png"
+                                        alt="">
+                                </div>
+                                <div class=" col">
+                                    <h6 class="ps-1 border-start border-light">Liverpool John Moores University</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-sm-3">
+                                    <h6>MBA</h6>
+                                </div>
+                                <div class=" col">
+                                    <h6 class="ps-1 border-start border-light">Liverpool John Moores University</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4 p-2 border-dark border-top text-center">VIEW PROGRAM</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col marginSide" style="margin-bottom: 50px;">
+                <div class="slider center marginRight" style="width:85vw; height: 320px; box-shadow:0px 0px 25px 0px grey;">
+                    <div
+                        style="margin:0px 10px; width:10px !important; background-image: url(https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2F720x400_DSML__1640685198472.png&w=1920&q=75);">
+                        <div class="block4Content">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <img src="https://ik.imagekit.io/upgrad1/marketing-platform-assets/sprites%2Fimages/l__1600085698327.png"
+                                        alt="">
+                                </div>
+                                <div class=" col">
+                                    <h6 class="ps-1 border-start border-light">Liverpool John Moores University</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-sm-3">
+                                    <h6>MBA</h6>
+                                </div>
+                                <div class=" col">
+                                    <h6 class="ps-1 border-start border-light">Liverpool John Moores University</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4 p-2 border-dark border-top text-center">VIEW PROGRAM</div>
+                        </div>
+                    </div>
+                    <div
+                        style="margin:0px 10px; width:10px !important; background-image: url(https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fmarketing__1642158907941.png&w=1920&q=75);">
+                        <div class="block4Content">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <img src="https://ik.imagekit.io/upgrad1/marketing-platform-assets/sprites%2Fimages/Deakin-icon__1638857406032.png"
+                                        alt="">
+                                </div>
+                                <div class=" col">
+                                    <h6 class="ps-1 border-start border-light">Liverpool John Moores University</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-sm-3">
+                                    <h6>MBA</h6>
+                                </div>
+                                <div class=" col">
+                                    <h6 class="ps-1 border-start border-light">Liverpool John Moores University</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4 p-2 border-dark border-top text-center">VIEW PROGRAM</div>
+                        </div>
+                    </div>
+                    <div
+                        style="margin:0px 10px; width:10px !important; background-image: url(https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2F720x400_DSML__1640685198472.png&w=1920&q=75);">
+                        <div class="block4Content">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <img src="https://ik.imagekit.io/upgrad1/marketing-platform-assets/sprites%2Fimages/l__1600085698327.png"
+                                        alt="">
+                                </div>
+                                <div class=" col">
+                                    <h6 class="ps-1 border-start border-light">Liverpool John Moores University</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-sm-3">
+                                    <h6>MBA</h6>
+                                </div>
+                                <div class=" col">
+                                    <h6 class="ps-1 border-start border-light">Liverpool John Moores University</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4 p-2 border-dark border-top text-center">VIEW PROGRAM</div>
+                        </div>
+                    </div>
+                    <div
+                        style="margin:0px 10px; width:10px !important; background-image: url(https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Flaw__1643809851236.png&w=1920&q=75);">
+                        <div class="block4Content">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <img src="https://ik.imagekit.io/upgrad1/marketing-platform-assets/sprites%2Fimages/Deakin-icon__1638857406032.png"
+                                        alt="">
+                                </div>
+                                <div class=" col">
+                                    <h6 class="ps-1 border-start border-light">Liverpool John Moores University</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-sm-3">
+                                    <h6>MBA</h6>
+                                </div>
+                                <div class=" col">
+                                    <h6 class="ps-1 border-start border-light">Liverpool John Moores University</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4 p-2 border-dark border-top text-center">VIEW PROGRAM</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
     <!-------------------------------------------- BLOCK 5 -------------------------------------------->
 
-    <div class="block blockColumn block1">
+    <div class="block blockColumn block5 block1" style="background-color:whitesmoke; color: white;">
         <div class="row col-sm-12 marginRight block p-2">
             <div class="col marginSide">
-                <h2>Our Top University Partners</h2>
+                <div class="slider center marginRight" style="width:85vw; box-shadow:0px 0px 25px 0px grey;">
+                    <div
+                        style="margin:0px 10px; padding:10px; width:10px !important; background-image: url(https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2F720x400_DSML__1640685198472.png&w=1920&q=75);">
+                        <button>Explore</button>
+                        <h3 class="mt-5">Add a Dr. to your name in 3 years</h3>
+                    </div>
+                    <div
+                        style="margin:0px 10px; padding:10px; width:10px !important; background-image: url(https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fmarketing__1642158907941.png&w=1920&q=75);">
+                        <button>Know More</button>
+                        <h3 class="mt-5">Add a Dr. to your name in 3 years</h3>
+                    </div>
+                    <div
+                        style="margin:0px 10px; padding:10px; width:10px !important; background-image: url(https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2F720x400_DSML__1640685198472.png&w=1920&q=75);">
+                        <button>Learn More</button>
+                        <h3 class="mt-5">Learn Full Stack from Purde University</h3>
+                    </div>
+                    <div
+                        style="margin:0px 10px; padding:10px; width:10px !important; background-image: url(https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Flaw__1643809851236.png&w=1920&q=75);">
+                        <button>Learn More</button>
+                        <h3 class="mt-5">Learn Full Stack from Purde University</h3>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -279,67 +665,68 @@
                     <div class="col-sm-3 m-2 block7Content">
                         <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2F720x400_Management__1640684894622.png&w=1920&q=75"
                             alt="" style="height: 100%; width: 100%;">
-                            <div class="mt-1 p-2">
-                                <h4 class="w-100">Data Science & Machine Learning
-                                </h4>
-                                <span>
-                                    Build your foundation in one of the hottest industry of the 21st century</span>
-                                <div class="mt-2"><button>Know More</button></div>
-                            </div>
+                        <div class="mt-1 p-2">
+                            <h4 class="w-100">Data Science & Machine Learning
+                            </h4>
+                            <span>
+                                Build your foundation in one of the hottest industry of the 21st century</span>
+                            <div class="mt-2"><button>Know More</button></div>
+                        </div>
                     </div>
                     <div class="col-sm-3 m-2 block7Content">
                         <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2F720x400Technology__1640776472617.png&w=1920&q=75"
                             alt="" style="height: 100%; width: 100%;">
-                            <div class="mt-1 p-2">
-                                <h4 class="w-100">Data Science & Machine Learning
-                                </h4>
-                                <span>
-                                    Build your foundation in one of the hottest industry of the 21st century</span>
-                                <div class="mt-2"><button>Know More</button></div>
-                            </div>
+                        <div class="mt-1 p-2">
+                            <h4 class="w-100">Data Science & Machine Learning
+                            </h4>
+                            <span>
+                                Build your foundation in one of the hottest industry of the 21st century</span>
+                            <div class="mt-2"><button>Know More</button></div>
+                        </div>
                     </div>
                     <div class="col-sm-3 m-2 block7Content">
                         <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fcareer_planning__1642158390901.png&w=1920&q=75"
                             alt="" style="height: 100%; width: 100%;">
-                            <div class="mt-1 p-2">
-                                <h4 class="w-100">Data Science & Machine Learning
-                                </h4>
-                                <span>
-                                    Build your foundation in one of the hottest industry of the 21st century</span>
-                                <div class="mt-2"><button>Know More</button></div>
-                            </div>
+                        <div class="mt-1 p-2">
+                            <h4 class="w-100">Data Science & Machine Learning
+                            </h4>
+                            <span>
+                                Build your foundation in one of the hottest industry of the 21st century</span>
+                            <div class="mt-2"><button>Know More</button></div>
+                        </div>
                     </div>
                     <div class="col-sm-3 m-2 block7Content">
                         <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fmarketing__1642158907941.png&w=1920&q=75"
                             alt="" style="height: 100%; width: 100%;">
-                            <div class="mt-1 p-2">
-                                <h4 class="w-100">Data Science & Machine Learning
-                                </h4>
-                                <span>
-                                    Build your foundation in one of the hottest industry of the 21st century</span>
-                                <div class="mt-2"><button>Know More</button></div>
-                            </div>
+                        <div class="mt-1 p-2">
+                            <h4 class="w-100">Data Science & Machine Learning
+                            </h4>
+                            <span>
+                                Build your foundation in one of the hottest industry of the 21st century</span>
+                            <div class="mt-2"><button>Know More</button></div>
+                        </div>
                     </div>
                     <div class="col-sm-3 m-2 block7Content">
                         <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Flaw__1643809851236.png&w=1920&q=75"
                             alt="" style="height: 100%; width: 100%;">
-                            <div class="mt-1 p-2">
-                                <h4 class="w-100">Data Science & Machine Learning
-                                </h4>
-                                <span>
-                                    Build your foundation in one of the hottest industry of the 21st century</span>
-                                    <div class="mt-2"><button style="display:block">Know More</button></div>
-                            </div>
+                        <div class="mt-1 p-2">
+                            <h4 class="w-100">Data Science & Machine Learning
+                            </h4>
+                            <span>
+                                Build your foundation in one of the hottest industry of the 21st century</span>
+                            <div class="mt-2"><button style="display:block">Know More</button></div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <button>EXPLORE FREE COURSES</button>
     </div>
 
     <!-------------------------------------------- BLOCK 7 -------------------------------------------->
 
     <div class="block blockColumn">
-        <h2>upGrad Webinars</h2>
+        <h2 class="mt-5">upGrad Webinars</h2>
         <div class="slider center marginRight" style="overflow: hidden; width: 80vw;">
             <div class="col-sm-3 m-2 block7Content">
                 <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fds_card__1643637881250.png&w=1920&q=75"
@@ -381,7 +768,7 @@
     <div class="block blockColumn block8 block1 ">
         <div class="row col-sm-12 marginRight block p-2">
             <div class="col marginSide">
-                <h2>Our Top University Partners</h2>
+                <h2 class="mt-5">Our Top University Partners</h2>
                 <div class="slider center marginRight" style="overflow: hidden; width: 80vw;">
                     <div style="margin:0px 10px; padding:10px; width:10px !important;">
                         <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Faa__1600125771940.jpg&w=64&q=75"
@@ -447,7 +834,7 @@
 
     <!-------------------------------------------- BLOCK 9 -------------------------------------------->
 
-    <div class="block blockColumn mt-5">
+    <div class="block blockColumn mt-5 mb-5">
         <h2>Where our Alumni Work</h2>
         <div class="row col-sm-12 block p-2">
             <div class="col"><img
@@ -485,11 +872,60 @@
 
     <!-------------------------------------------- BLOCK 10 -------------------------------------------->
 
+    <div class="block blockColumn block10 block1" style="background-color: rgb(247, 244, 244);">
+        <div class="row col-sm-12 marginRight block p-2">
+            <div class="col marginSide">
+                <h2>Our Top University Partners</h2>
+                <div class="slider center marginRight" style="width:85vw; box-shadow:0px 0px 25px 0px grey">
+                    <div style="margin:0px 10px; padding:10px; width:10px !important;">
+                        <h5>upgrad commits to 'fast forward your career'</h5>
+                        <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fbloomberg_200x50__1633679460358.png&w=256&q=75"
+                            alt="">
+                    </div>
+                    <div style="margin:0px 10px; padding:10px; width:10px !important;">
+                        <h5>upgrad commits to 'fast forward your career'</h5>
+                        <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2FET__1600195889892.png&w=256&q=75"
+                            alt="">
+                    </div>
+                    <div style="margin:0px 10px; padding:10px; width:10px !important;">
+                        <h5>upgrad commits to 'fast forward your career'</h5>
+                        <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fbloomberg_200x50__1633679460358.png&w=256&q=75"
+                            alt="">
+                    </div>
+                    <div style="margin:0px 10px; padding:10px; width:10px !important;">
+                        <h5>upgrad commits to 'fast forward your career'</h5>
+                        <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2FET__1600195889892.png&w=256&q=75"
+                            alt="">
+                    </div>
+                    <div style="margin:0px 10px; padding:10px; width:10px !important;">
+                        <h5>upgrad commits to 'fast forward your career'</h5>
+                        <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fbloomberg_200x50__1633679460358.png&w=256&q=75"
+                            alt="">
+                    </div>
+                    <div style="margin:0px 10px; padding:10px; width:10px !important;">
+                        <h5>upgrad commits to 'fast forward your career'</h5>
+                        <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2FET__1600195889892.png&w=256&q=75"
+                            alt="">
+                    </div>
+                    <div style="margin:0px 10px; padding:10px; width:10px !important;">
+                        <h5>upgrad commits to 'fast forward your career'</h5>
+                        <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fbloomberg_200x50__1633679460358.png&w=256&q=75"
+                            alt="">
+                    </div>
+                    <div style="margin:0px 10px; padding:10px; width:10px !important;">
+                        <h5>upgrad commits to 'fast forward your career'</h5>
+                        <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2FET__1600195889892.png&w=256&q=75"
+                            alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
     <!-------------------------------------------- BLOCK 11 -------------------------------------------->
 
     <div class="block blockColumn">
         <div class="row col-sm-12 marginRight block p-2">
-            <div class="col marginSide">
                 <h2 class="mt-5">upGrad Learner Support</h2>
                 <div class="col-sm-10 block">
                     <div class="col block11Number"><i class="fa fa-phone"
@@ -498,7 +934,6 @@
                             style="font-size:26px;margin-right:10px ; "></i>+91 22 6505 4631</div>
                 </div>
                 <span>Call us between 7 AM - 12 AM</span>
-            </div>
         </div>
     </div>
     <!-------------------------------------------- BLOCK 12 -------------------------------------------->
@@ -517,6 +952,168 @@
     </div>
     <!-------------------------------------------- FOOTER-------------------------------------------->
 
+    <footer class="row text-light text-center bg-dark">
+        <!-- footer.1  -->
+        <div class="row mb-3 border-bottom border-secondary">
+            <div class="col">
+                <ul>
+                    <li>
+                        <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fupgrad-marketing-platform.s3.amazonaws.com%2Fmpc-v2%2Fassets%2Fimages%2Fupgrad%2Fupgrad-logo.svg&w=96&q=75"
+                            alt="" style="  height: 80%;
+                    width: 80%;">
+                    </li>
+                </ul>
+            </div>
+            <div class="col">
+                <ul>
+                    <li>
+                        <h4>Sales & Support</h4>
+                    </li>
+                    <li><a href="#">USA: (877) 909-8378
+                            sales@criteriacorp.com
+                            support@criteriacorp.com</a></li>
+                    <li><a href="#">USA: 750 N. San Vicente Blvd.
+                            Suite 1500 E. Tower
+                            West Hollywood, CA 90069</a></li>
+                    <li><a href="#">UK: 08000 148268</a></li>
+
+                </ul>
+            </div>
+            <div class="col">
+                <ul>
+                    <li>
+                        <h4>Address</h4>
+                    </li>
+                    <li><a href="#">USA: 750 N. San Vicente Blvd.
+                            Suite 1500 E. Tower
+                            West Hollywood, CA 90069</a></li>
+                    <li><a href="#">AUS: Level 18, 333 Ann Street
+                            Brisbane, QLD 4000</a></li>
+                </ul>
+            </div>
+            <div class="col ">
+                <ul class="block blockColumn">
+                    <li>
+                        <h4>Follow Us</h4>
+                    </li>
+                    <div class="block">
+                        <li style="margin: 5px;"><a href="#" style="color: var(--colorr);"><i class="fa fa-instagram"
+                                    style="font-size:36px"></i></a></li>
+                        <li style="margin: 5px;"><a href="#" style="color: var(--colorr);"><i class="fa fa-linkedin"
+                                    style="font-size:36px"></i></a></li>
+                        <li style="margin: 5px;"><a href="#" style="color: var(--colorr);"><i class="fa fa-twitter"
+                                    style="font-size:36px"></i></a></li>
+                        <li style="margin: 5px;"><a href="#" style="color: var(--colorr);"><i class="fa fa-facebook"
+                                    style="font-size:36px"></i></a></li>
+                    </div>
+            </div>
+            <div class="col">
+                <ul>
+                    <li>
+                        <button class="border-info text-center" style="background-color: var(--colorr);">Login</button>
+                    </li>
+                    <li>
+                        <button class="text-light text-center border-light">Start Free Trial!</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- footer.2  -->
+        <div class="row mt-3 mb-5 border-bottom border-light">
+            <div class="col">
+                <ul>
+                    <li>
+                        <h4>Our Solutions</h4>
+                    </li>
+                    <li><a href="#">Our Assessments</a></li>
+                    <li><a href="#">Cognitive Aptitude</a></li>
+                    <li><a href="#">Personality</a></li>
+                    <li><a href="#">Emotional Intelligence</a></li>
+                    <li><a href="#">Risk</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Our Platform</a></li>
+                    <li><a href="#">Video Interviewing</a></li>
+                    <li><a href="#">Talent Insights</a></li>
+                    <li><a href="#">Integrations & Partners</a></li>
+                    <li><a href="#">Campus Recruitment</a></li>
+                    <li><a href="#">Enterprise Solutions</a></li>
+                    <li><a href="#">SMB Solutions</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <ul>
+                    <li>
+                        <h4>Why Criteria</h4>
+                    </li>
+                    <li><a href="#">Diversity and Inclusion</a></li>
+                    <li><a href="#">Test and Data Security</a></li>
+                    <li><a href="#">Legal Defensibility</a></li>
+                    <li><a href="#">Customer Success</a></li>
+                    <li><a href="#">Our Science</a></li>
+                    <li><a href="#">Testing Validation</a></li>
+                    <li><a href="#">Scientific Advisory</a></li>
+                    <li><a href="#">R&D Partners</a></li>
+                    <li><a href="#">Case Studies</a></li>
+                    <li><a href="#">Testimonials</a></li>
+
+                </ul>
+            </div>
+            <div class="col">
+                <ul>
+                    <li>
+                        <h4>Resources</h4>
+                    </li>
+                    <li><a href="#">Resource Library</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Definitive Guide to Pre-Employment Testing</a></li>
+                    <li><a href="#">Glossary</a></li>
+                    <li><a href="#">Calculate Your ROI</a></li>
+                    <li><a href="#">What Our Tests Measure</a></li>
+                    <li><a href="#">Tests by Industry</a></li>
+                    <li><a href="#">Tests by Position</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <ul>
+                    <li>
+                        <h4>Job Candidates</h4>
+                    </li>
+                    <li><a href="#">How to Prepare</a></li>
+                    <li><a href="#">About the Assessments</a></li>
+                    <li><a href="#">Candidate FAQs</a></li>
+                    <li><a href="#">What to Expect on the Criteria Cognitive Aptitude Assessment (CCAT)</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <ul>
+                    <li>
+                        <h4>About Us</h4>
+                    </li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Partner with Us</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Charitable Causes</a></li>
+                    <li><a href="#"> AUS Website</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- footer.3  -->
+
+        <div id="footer3" class="blockRow" style="justify-content: space-evenly; font-size: 12px;">
+            <div class="block" style="text-align: left;">
+                <ul>
+                    <li>Copyright ©2005-2022 Criteria Corp. Web-based Pre-Employment Testing Software-as-a-Service
+                        (SaaS). All rights reserved.</li>
+                    <li>On-Demand Assessment™ and CriteriaSM are trademarks of Criteria Corp.</li>
+                    <li>MRAB copyright ©2006 Harvard University (patent pending) is licensed exclusively by Criteria
+                        Corp.</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
     <!-------------------------------------------- SCRIPT -------------------------------------------->
     <script>
         $('.autoplay').slick({
@@ -532,16 +1129,25 @@
             slidesToShow: 3,
             responsive: [
                 {
-                    breakpoint: 768,
+                    breakpoint: 968,
                     settings: {
                         arrows: false,
                         centerMode: true,
                         centerPadding: '40px',
-                        slidesToShow: 3
+                        slidesToShow: 2
                     }
                 },
                 {
-                    breakpoint: 480,
+                    breakpoint: 740,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1.5
+                    }
+                },
+                {
+                    breakpoint: 540,
                     settings: {
                         arrows: false,
                         centerMode: true,
