@@ -19,21 +19,9 @@
             padding: 0px;
             margin: 0px;
         }
-
         :root {
             --colorr: #f23e36;
         }
-
-        .block {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .blockColumn {
-            flex-direction: column;
-        }
-
         button.slick-arrow {
             display: none !important;
         }
@@ -55,31 +43,21 @@
             border-radius: 10px;
             cursor: pointer;
         }
-        .block2{
-            padding: 0px 4% !important;
-        }
-        .block3 .slick-slide {
+        
+        .IconList_icon__3 .slick-slide {
             box-shadow: 0 4px 10px rgb(0 0 0 / 16%);
             margin: 5px !important ;
             border-radius: 10px;
             width: 200px !important;
             height: 80px;
         }
-        .block4{
-            padding: none !important;
-        }
-        .block4Content{
+        .Carousel_container{
             margin: 100px 0px 0px 0px !important;
             border-radius: 20px 20px 0px 0px;
             background-color:whitesmoke;
             padding: 18px;
         }
-        .block4 .slick-slide{
-            box-shadow: 0 4px 10px rgb(0 0 0 / 16%);
-            margin: 5px !important ;
-            border-radius: 10px;
-        }
-        .block5 .slick-slide {
+        .Carousel_wrapper .slick-slide {
             box-shadow: 0 4px 10px rgb(0 0 0 / 16%);
             margin: 5px !important ;
             border-radius: 10px;
@@ -87,52 +65,37 @@
             height: 200px;
         }
 
-        .block5 button {
-            width: 50%;
-            background-color: transparent;
-            color: white;
-            border: 2px solid white;
-        }
-
-        .block6 .slick-slide {
+        .Carousel_wrapper_6_content .slick-slide {
             height: fit-content;
         }
 
 
-        .block7Content {
+        .Carousel_wrapper_7_content {
             box-shadow: 0 4px 10px rgb(0 0 0 / 16%);
             border-radius: 10px;
             padding: 0px;
         }
 
-        .block7Content img {
+        .Carousel_wrapper_7_content img {
             border-radius: 10px;
         }
-
-        .block7Content button {
-            background-color: #fff;
-            border: 2px solid rgb(0, 132, 255);
-            color: rgb(0, 132, 255);
-            width: 50%;
-            padding: 6px 1px;
-        }
-        .block8 .dp {
+        .AlumniCards .dp {
             clip-path: circle(50%);
         }
-        .block8 .slick-slide {
+        .AlumniCards .slick-slide {
             box-shadow: 0 4px 10px rgb(0 0 0 / 16%);
             width: 180px !important;
             border-radius: 10px;
             margin: 10px 20px !important;
             height: 200px;
         }
-        .block10 .slick-slide{
+        .NewsItemContainer .slick-slide{
             margin: 10px !important;
             box-shadow: 0 4px 10px rgb(0 0 0 / 16%);
             background-color: white;
             border-radius: 10px;
         }
-        .block11Number {
+        .PhoneNumber {
             color: var(--colorr);
             font-size: 20px;
             text-align: center;
@@ -170,22 +133,19 @@
             border-radius: 20px;
         }
         @media (max-width:590px) {
-           .block4 .slider.center.marginRight{
-               height: 400px !important;
-           }
-           .block1{
+           .Banner{
                font-size: 7px;
            }
            button{
                width: 60%;
            }
-           .block5 button{
+           .Carousel_wrapper button{
                font-size: 14px;
            }
-           .block9{
+           .CompanyCards{
                display: none;
            }
-           .block11Number{
+           .PhoneNumber{
                font-size: 12px;
                width: 100%;
            }
@@ -239,7 +199,7 @@
 
     <!------------------------------------ BLOCK 1 ------------------------------------>
 
-    <div class="block1">
+    <div class="Banner">
         <div class="slider autoplay ">
             <div>
                 <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2F4__1635261083350.jpg&w=1920&q=75"
@@ -278,21 +238,21 @@
 
     <!-------------------------------------------- BLOCK 2 -------------------------------------------->
 
-    <div class="block blockColumn block2">
+    <div class="d-flex justify-content-center align-items-center flex-column p-2">
         <div class="row col-12 marginRight mt-3">
-            <div class="block col-sm-4">
+            <div class="d-flex justify-content-center  align-item-center col-sm-4">
                 <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fpmv2-jobs__1638365336598.png&w=48&q=75"
                     alt="">
                 <h4 class="ms-3 me-3">Jobs in 1000+</h4>
                 <span>Top Companies</span>
             </div>
-            <div class="block col-sm-4">
+            <div class="d-flex justify-content-center  align-item-center col-sm-4">
                 <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fpmv2-jobs__1638365336598.png&w=48&q=75"
                     alt="">
                 <h4 class="ms-3 me-3">50%</h4>
                 <span>average Hike</span>
             </div>
-            <div class="block col-sm-4">
+            <div class="d-flex justify-content-center  align-item-center col-sm-4">
                 <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fpmv2-jobs__1638365336598.png&w=48&q=75"
                     alt="">
                 <h4 class="ms-3 me-3">Top 1%</h4>
@@ -304,8 +264,8 @@
 
     <!-------------------------------------------- BLOCK 3 -------------------------------------------->
 
-    <div class="block blockColumn block1 block3">
-        <div class="row col-sm-12 marginRight block p-2">
+    <div class="d-flex justify-content-center align-items-center flex-column Banner .IconList_icon__3">
+        <div class="col-sm-12 marginRight d-flex justify-content-center  align-items-center p-2">
             <div class="col marginSide">
                 <h2>Our Top University Partners</h2>
                 <div class="slider center marginRight" style="width:85vw;">
@@ -339,13 +299,13 @@
     </div>
 
     <!-------------------------------------------- BLOCK 4 -------------------------------------------->
-    <div class="block blockColumn block4 block1">
-        <div class="row col-sm-12 marginRight block">
+    <div class="p-0 d-flex justify-content-center align-items-center flex-column Banner">
+        <div class="row col-sm-12 marginRight d-flex justify-content-center align-items-center">
             <div class="col marginSide" style="margin-bottom: 50px;">
                 <div class="slider center marginRight" style="width:85vw; height: 320px;">
                     <div
                         style="margin:0px 10px; width:10px !important; background-image: url(https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2F720x400_DSML__1640685198472.png&w=1920&q=75);">
-                        <div class="block4Content">
+                        <div class="Carousel_container">
                             <div class="row">
                                 <div class="col-sm-3">
                                     <img src="https://ik.imagekit.io/upgrad1/marketing-platform-assets/sprites%2Fimages/l__1600085698327.png"
@@ -357,7 +317,7 @@
                             </div>
                             <div class="row mt-4">
                                 <div class="col-sm-3">
-                                    <h6>MBA</h6>
+                                    <h6>MBAa</h6>
                                 </div>
                                 <div class=" col">
                                     <h6 class="ps-1 border-start border-dark">Liverpool John Moores University</h6>
@@ -368,7 +328,7 @@
                     </div>
                     <div
                         style="margin:0px 10px; width:10px !important; background-image: url(https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fmarketing__1642158907941.png&w=1920&q=75);">
-                        <div class="block4Content">
+                        <div class="Carousel_container">
                             <div class="row">
                                 <div class="col-sm-3">
                                     <img src="https://ik.imagekit.io/upgrad1/marketing-platform-assets/sprites%2Fimages/Deakin-icon__1638857406032.png"
@@ -391,7 +351,7 @@
                     </div>
                     <div
                         style="margin:0px 10px; width:10px !important; background-image: url(https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2F720x400_DSML__1640685198472.png&w=1920&q=75);">
-                        <div class="block4Content">
+                        <div class="Carousel_container">
                             <div class="row">
                                 <div class="col-sm-3">
                                     <img src="https://ik.imagekit.io/upgrad1/marketing-platform-assets/sprites%2Fimages/l__1600085698327.png"
@@ -414,7 +374,7 @@
                     </div>
                     <div
                         style="margin:0px 10px; width:10px !important; background-image: url(https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Flaw__1643809851236.png&w=1920&q=75);">
-                        <div class="block4Content">
+                        <div class="Carousel_container">
                             <div class="row">
                                 <div class="col-sm-3">
                                     <img src="https://ik.imagekit.io/upgrad1/marketing-platform-assets/sprites%2Fimages/Deakin-icon__1638857406032.png"
@@ -441,7 +401,7 @@
                 <div class="slider center marginRight" style="width:85vw; height: 320px;">
                     <div
                         style="margin:0px 10px; width:10px !important; background-image: url(https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2F720x400_DSML__1640685198472.png&w=1920&q=75);">
-                        <div class="block4Content">
+                        <div class="Carousel_container">
                             <div class="row">
                                 <div class="col-sm-3">
                                     <img src="https://ik.imagekit.io/upgrad1/marketing-platform-assets/sprites%2Fimages/l__1600085698327.png"
@@ -464,7 +424,7 @@
                     </div>
                     <div
                         style="margin:0px 10px; width:10px !important; background-image: url(https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fmarketing__1642158907941.png&w=1920&q=75);">
-                        <div class="block4Content">
+                        <div class="Carousel_container">
                             <div class="row">
                                 <div class="col-sm-3">
                                     <img src="https://ik.imagekit.io/upgrad1/marketing-platform-assets/sprites%2Fimages/Deakin-icon__1638857406032.png"
@@ -487,7 +447,7 @@
                     </div>
                     <div
                         style="margin:0px 10px; width:10px !important; background-image: url(https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2F720x400_DSML__1640685198472.png&w=1920&q=75);">
-                        <div class="block4Content">
+                        <div class="Carousel_container">
                             <div class="row">
                                 <div class="col-sm-3">
                                     <img src="https://ik.imagekit.io/upgrad1/marketing-platform-assets/sprites%2Fimages/l__1600085698327.png"
@@ -510,7 +470,7 @@
                     </div>
                     <div
                         style="margin:0px 10px; width:10px !important; background-image: url(https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Flaw__1643809851236.png&w=1920&q=75);">
-                        <div class="block4Content">
+                        <div class="Carousel_container">
                             <div class="row">
                                 <div class="col-sm-3">
                                     <img src="https://ik.imagekit.io/upgrad1/marketing-platform-assets/sprites%2Fimages/Deakin-icon__1638857406032.png"
@@ -537,7 +497,7 @@
                 <div class="slider center marginRight" style="width:85vw; height: 320px;">
                     <div
                         style="margin:0px 10px; width:10px !important; background-image: url(https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2F720x400_DSML__1640685198472.png&w=1920&q=75);">
-                        <div class="block4Content">
+                        <div class="Carousel_container">
                             <div class="row">
                                 <div class="col-sm-3">
                                     <img src="https://ik.imagekit.io/upgrad1/marketing-platform-assets/sprites%2Fimages/l__1600085698327.png"
@@ -560,7 +520,7 @@
                     </div>
                     <div
                         style="margin:0px 10px; width:10px !important; background-image: url(https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fmarketing__1642158907941.png&w=1920&q=75);">
-                        <div class="block4Content">
+                        <div class="Carousel_container">
                             <div class="row">
                                 <div class="col-sm-3">
                                     <img src="https://ik.imagekit.io/upgrad1/marketing-platform-assets/sprites%2Fimages/Deakin-icon__1638857406032.png"
@@ -583,7 +543,7 @@
                     </div>
                     <div
                         style="margin:0px 10px; width:10px !important; background-image: url(https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2F720x400_DSML__1640685198472.png&w=1920&q=75);">
-                        <div class="block4Content">
+                        <div class="Carousel_container">
                             <div class="row">
                                 <div class="col-sm-3">
                                     <img src="https://ik.imagekit.io/upgrad1/marketing-platform-assets/sprites%2Fimages/l__1600085698327.png"
@@ -606,7 +566,7 @@
                     </div>
                     <div
                         style="margin:0px 10px; width:10px !important; background-image: url(https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Flaw__1643809851236.png&w=1920&q=75);">
-                        <div class="block4Content">
+                        <div class="Carousel_container">
                             <div class="row">
                                 <div class="col-sm-3">
                                     <img src="https://ik.imagekit.io/upgrad1/marketing-platform-assets/sprites%2Fimages/Deakin-icon__1638857406032.png"
@@ -636,28 +596,28 @@
 
     <!-------------------------------------------- BLOCK 5 -------------------------------------------->
 
-    <div class="block blockColumn block5 block1" style="background-color:whitesmoke; color: white;">
-        <div class="row col-sm-12 marginRight block p-2">
+    <div class="d-flex justify-content-center align-items-center flex-column Carousel_wrapper Banner" style="background-color:whitesmoke; color: white;">
+        <div class="row col-sm-12 marginRight d-flex justify-content-center align-items-center p-2">
             <div class="col marginSide">
                 <div class="slider center marginRight" style="width:85vw;">
                     <div
                         style="margin:0px 10px; padding:10px; width:10px !important; background-image: url(https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2F720x400_DSML__1640685198472.png&w=1920&q=75);">
-                        <button>Explore</button>
+                        <button class="w-50 border border-light bg-transparent ">Explore</button>
                         <h3 class="mt-5">Add a Dr. to your name in 3 years</h3>
                     </div>
                     <div
                         style="margin:0px 10px; padding:10px; width:10px !important; background-image: url(https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fmarketing__1642158907941.png&w=1920&q=75);">
-                        <button>Know More</button>
+                        <button class="w-50 border border-light bg-transparent ">Know More</button>
                         <h3 class="mt-5">Add a Dr. to your name in 3 years</h3>
                     </div>
                     <div
                         style="margin:0px 10px; padding:10px; width:10px !important; background-image: url(https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2F720x400_DSML__1640685198472.png&w=1920&q=75);">
-                        <button>Learn More</button>
+                        <button class="w-50 border border-light bg-transparent ">Learn More</button>
                         <h3 class="mt-5">Learn Full Stack from Purde University</h3>
                     </div>
                     <div
                         style="margin:0px 10px; padding:10px; width:10px !important; background-image: url(https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Flaw__1643809851236.png&w=1920&q=75);">
-                        <button>Learn More</button>
+                        <button class="w-50 border border-light bg-transparent ">Learn More</button>
                         <h3 class="mt-5">Learn Full Stack from Purde University</h3>
                     </div>
                 </div>
@@ -666,12 +626,12 @@
     </div>
 
     <!-------------------------------------------- BLOCK 6 -------------------------------------------->
-    <div class="block blockColumn block6 ">
-        <div class="row col-sm-12 marginRight block p-2">
+    <div class="d-flex justify-content-center align-items-center flex-column Carousel_wrapper_6_content ">
+        <div class="row col-sm-12 marginRight d-flex justify-content-center align-items-center p-2">
             <div class="col marginSide">
                 <h2>Explore Free Courses</h2>
                 <div class="slider center marginRight" style="overflow: hidden; width: 80vw;">
-                    <div class="col-sm-3 m-2 block7Content">
+                    <div class="col-sm-3 m-2 Carousel_wrapper_7_content">
                         <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2F720x400_DSML__1640685198472.png&w=1920&q=75"
                             alt="" style="height: 100%; width: 100%;">
                         <div class="mt-1 p-2">
@@ -679,10 +639,10 @@
                             </h4>
                             <span>
                                 Build your foundation in one of the hottest industry of the 21st century</span>
-                            <div class="mt-2"><button>Know More</button></div>
+                            <div class="mt-2"><button class="w-50 bg-light text-info border border-info">Know More</button></div>
                         </div>
                     </div>
-                    <div class="col-sm-3 m-2 block7Content">
+                    <div class="col-sm-3 m-2 Carousel_wrapper_7_content">
                         <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2F720x400_Management__1640684894622.png&w=1920&q=75"
                             alt="" style="height: 100%; width: 100%;">
                         <div class="mt-1 p-2">
@@ -690,10 +650,10 @@
                             </h4>
                             <span>
                                 Build your foundation in one of the hottest industry of the 21st century</span>
-                            <div class="mt-2"><button>Know More</button></div>
+                            <div class="mt-2"><button class="w-50 bg-light text-info border border-info">Know More</button></div>
                         </div>
                     </div>
-                    <div class="col-sm-3 m-2 block7Content">
+                    <div class="col-sm-3 m-2 Carousel_wrapper_7_content">
                         <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2F720x400Technology__1640776472617.png&w=1920&q=75"
                             alt="" style="height: 100%; width: 100%;">
                         <div class="mt-1 p-2">
@@ -701,10 +661,10 @@
                             </h4>
                             <span>
                                 Build your foundation in one of the hottest industry of the 21st century</span>
-                            <div class="mt-2"><button>Know More</button></div>
+                            <div class="mt-2"><button class="w-50 bg-light text-info border border-info">Know More</button></div>
                         </div>
                     </div>
-                    <div class="col-sm-3 m-2 block7Content">
+                    <div class="col-sm-3 m-2 Carousel_wrapper_7_content">
                         <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fcareer_planning__1642158390901.png&w=1920&q=75"
                             alt="" style="height: 100%; width: 100%;">
                         <div class="mt-1 p-2">
@@ -712,10 +672,10 @@
                             </h4>
                             <span>
                                 Build your foundation in one of the hottest industry of the 21st century</span>
-                            <div class="mt-2"><button>Know More</button></div>
+                            <div class="mt-2"><button class="w-50 bg-light text-info border border-info">Know More</button></div>
                         </div>
                     </div>
-                    <div class="col-sm-3 m-2 block7Content">
+                    <div class="col-sm-3 m-2 Carousel_wrapper_7_content">
                         <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fmarketing__1642158907941.png&w=1920&q=75"
                             alt="" style="height: 100%; width: 100%;">
                         <div class="mt-1 p-2">
@@ -723,10 +683,10 @@
                             </h4>
                             <span>
                                 Build your foundation in one of the hottest industry of the 21st century</span>
-                            <div class="mt-2"><button>Know More</button></div>
+                            <div class="mt-2"><button class="w-50 bg-light text-info border border-info">Know More</button></div>
                         </div>
                     </div>
-                    <div class="col-sm-3 m-2 block7Content">
+                    <div class="col-sm-3 m-2 Carousel_wrapper_7_content">
                         <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Flaw__1643809851236.png&w=1920&q=75"
                             alt="" style="height: 100%; width: 100%;">
                         <div class="mt-1 p-2">
@@ -734,7 +694,7 @@
                             </h4>
                             <span>
                                 Build your foundation in one of the hottest industry of the 21st century</span>
-                            <div class="mt-2"><button style="display:block">Know More</button></div>
+                            <div class="mt-2"><button class="w-50 bg-light text-info border border-info" style="display:block">Know More</button></div>
                         </div>
                     </div>
                 </div>
@@ -745,37 +705,37 @@
 
     <!-------------------------------------------- BLOCK 7 -------------------------------------------->
 
-    <div class="block blockColumn">
+    <div class="d-flex justify-content-center align-items-center flex-column">
         <h2 class="mt-5">upGrad Webinars</h2>
         <div class="slider center marginRight" style="overflow: hidden; width: 80vw;">
-            <div class="col-sm-3 m-2 block7Content">
+            <div class="col-sm-3 m-2 Carousel_wrapper_7_content">
                 <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fds_card__1643637881250.png&w=1920&q=75"
                     alt="" style="height: 100%; width: 100%;">
                 <div class="mt-1 p-2">
                     <h4 class="w-100">Data Science</h4>
                     <span>Discover the newest trends from data science experts, big data practitioners, and industry
                         leaders.</span>
-                    <div class="mt-2"><button>Enroll now</button></div>
+                    <div class="mt-2"><button class="w-50 bg-light text-info border border-info">Enroll now</button></div>
                 </div>
             </div>
-            <div class="col-sm-3 m-2 block7Content">
+            <div class="col-sm-3 m-2 Carousel_wrapper_7_content">
                 <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fds_card__1643637881250.png&w=1920&q=75"
                     alt="" style="height: 100%; width: 100%;">
                 <div class="mt-1 p-2">
                     <h4 class="w-100">Data Science</h4>
                     <span>Discover the newest trends from data science experts, big data practitioners, and industry
                         leaders.</span>
-                    <div class="mt-2"><button>Enroll now</button></div>
+                    <div class="mt-2"><button class="w-50 bg-light text-info border border-info">Enroll now</button></div>
                 </div>
             </div>
-            <div class="col-sm-3 m-2 block7Content">
+            <div class="col-sm-3 m-2 Carousel_wrapper_7_content">
                 <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fds_card__1643637881250.png&w=1920&q=75"
                     alt="" style="height: 100%; width: 100%;">
                 <div class="mt-1 p-2">
                     <h4 class="w-100">Data Science</h4>
                     <span>Discover the newest trends from data science experts, big data practitioners, and industry
                         leaders.</span>
-                    <div class="mt-2"><button>Enroll now</button></div>
+                    <div class="mt-2"><button class="w-50 bg-light text-info border border-info">Enroll now</button></div>
                 </div>
             </div>
         </div>
@@ -785,8 +745,8 @@
     <!-------------------------------------------- BLOCK 8 -------------------------------------------->
 
 
-    <div class="block blockColumn block8 block1 ">
-        <div class="row col-sm-12 marginRight block p-2">
+    <div class="d-flex justify-content-center align-items-center flex-column AlumniCards Banner ">
+        <div class="row col-sm-12 marginRight d-flex justify-content-center align-items-center p-2">
             <div class="col marginSide">
                 <h2 class="mt-5">Our Top University Partners</h2>
                 <div class="slider center marginRight" style="overflow: hidden; width: 80vw;">
@@ -854,9 +814,9 @@
 
     <!-------------------------------------------- BLOCK 9 -------------------------------------------->
 
-    <div class="block block9 blockColumn mt-5 mb-5">
+    <div class="CompanyCards d-flex justify-content-center align-items-center flex-column  mt-5 mb-5">
         <h2>Where our Alumni Work</h2>
-        <div class="row col-sm-12 block p-2">
+        <div class="row col-sm-12 d-flex justify-content-center align-items-center p-2">
             <div class="col"><img
                     src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Famazon_colour_240X80__1617794797691.png&w=256&q=75"
                     alt="" style="height: 100%; width: 100%;"></div>
@@ -892,8 +852,8 @@
 
     <!-------------------------------------------- BLOCK 10 -------------------------------------------->
 
-    <div class="block blockColumn block10 block1" style="background-color: whitesmoke;">
-        <div class="row col-sm-12 marginRight block p-2">
+    <div class="d-flex justify-content-center align-items-center flex-column NewsItemContainer Banner" style="background-color: whitesmoke;">
+        <div class="row col-sm-12 marginRight d-flex justify-content-center align-items-center p-2">
             <div class="col marginSide">
                 <h2>Our Top University Partners</h2>
                 <div class="slider center marginRight" style="width:85vw;">
@@ -944,13 +904,13 @@
     </div>
     <!-------------------------------------------- BLOCK 11 -------------------------------------------->
 
-    <div class="block blockColumn">
-        <div class="row col-sm-12 marginRight block p-2">
+    <div class="d-flex justify-content-center align-items-center flex-column">
+        <div class="row col-sm-12 marginRight d-flex justify-content-center align-items-center p-2">
                 <h2 class="mt-5">upGrad Learner Support</h2>
-                <div class="col-sm-10 block">
-                    <div class="col block11Number"><i class="fa fa-phone"
+                <div class="col-sm-10 d-flex justify-content-center align-items-center">
+                    <div class="col PhoneNumber"><i class="fa fa-phone"
                             style="font-size:26px;margin-right:10px ; "></i>1800 210 2020</div>
-                    <div class="col block11Number"><i class="fa fa-phone"
+                    <div class="col PhoneNumber"><i class="fa fa-phone"
                             style="font-size:26px;margin-right:10px ; "></i>+91 22 6505 4631</div>
                 </div>
                 <span>Call us between 7 AM - 12 AM</span>
@@ -958,8 +918,8 @@
     </div>
     <!-------------------------------------------- BLOCK 12 -------------------------------------------->
 
-    <div class="block blockColumn">
-        <div class="row col-sm-12 marginRight block p-2">
+    <div class="d-flex justify-content-center align-items-center flex-column">
+        <div class="row col-sm-12 marginRight d-flex justify-content-center align-items-center p-2">
             <div class="col marginSide"
                 style="box-shadow: 0 4px 10px rgb(0 0 0 / 16%); border-radius: 8px;">
                 <p class="mt-2">Disclaimer:</p>
@@ -1012,11 +972,11 @@
                 </ul>
             </div>
             <div class="col ">
-                <ul class="block blockColumn">
+                <ul class="d-flex justify-content-center align-items-center flex-column">
                     <li>
                         <h4>Follow Us</h4>
                     </li>
-                    <div class="block">
+                    <div class="d-flex justify-content-center align-items-center">
                         <li style="margin: 5px;"><a href="#" style="color: var(--colorr);"><i class="fa fa-instagram"
                                     style="font-size:36px"></i></a></li>
                         <li style="margin: 5px;"><a href="#" style="color: var(--colorr);"><i class="fa fa-linkedin"
