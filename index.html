@@ -14,14 +14,27 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- logo  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="jobposting.css"> -->
     <style>
+        /* !-------------------------------------------- COMMON  --------------------------------------------> */
         * {
             padding: 0px;
             margin: 0px;
         }
+        body{
+            color: var(--color4);
+            background-color: var(--color);
+        }
+
         :root {
+                --color: #1f1463;
+                --color2: #ff5f00;
+                --color3: #ffb900;
+                --color4: white;
+
             --colorr: #f23e36;
         }
+
         button.slick-arrow {
             display: none !important;
         }
@@ -34,78 +47,114 @@
             margin: 0px 8%;
         }
 
-        button {
-            background-color: var(--colorr);
-            color: white;
+        /*!-------------------------------------------- BLOCK 3 --------------------------------------------> */
+        .IconList_icon__3{
+            background-color:var(--color4);
+            color: var(--color);
+        }
+        .IconList_icon__3 .slick-slide {
+            box-shadow: 0 4px 10px rgb(0 0 0 / 16%);
+            margin: 5px !important;
+            border-radius: 10px;
+            width: 200px !important;
+            height: 80px;
+        }
+        /* !-------------------------------------------- BLOCK 4 --------------------------------------------> */
+        .p-0.d-flex.justify-content-center.align-items-center.flex-column.Banner{
+            background-color: whitesmoke;
+        }
+        .Carousel_container {
+            margin: 100px 0px 0px 0px !important;
+            border-radius: 20px 20px 0px 0px;
+            background-color:var(--color4);
+            color: var(--color);
+            padding: 18px;
+        }
+        /* !-------------------------------------------- BLOCK 5 --------------------------------------------> */
+        .Carousel_wrapper{
+            background-color: var(--color);
+            color:var(--color4);
+        }
+        .Carousel_wrapper .slick-slide {
+            box-shadow: 0 4px 10px rgb(0 0 0 / 16%);
+            margin: 5px !important;
+            border-radius: 10px;
+            padding: 10px !important;
+            height: 200px;
+        }
+        /* !-------------------------------------------- BLOCK 6 --------------------------------------------> */
+        
+        .Carousel_wrapper_6_content .slick-slide {
+            height: fit-content;
+        }
+        
+        /* !-------------------------------------------- BLOCK 7 AND 7 --------------------------------------------> */
+
+        .Carousel_wrapper_7_content {
+            box-shadow: 0 4px 10px rgb(0 0 0 / 16%);
+            border-radius: 10px;
+            background-color: var(--color4);
+            color: var(--color);
+            padding: 0px;
+        }
+        
+        .Carousel_wrapper_7_content img {
+            border-radius: 10px;
+        }
+        
+        /* !-------------------------------------------- BLOCK 8 --------------------------------------------> */
+        .AlumniCards{
+            background-color: whitesmoke;
+            color: var(--color);
+        }
+        .AlumniCards .dp {
+            clip-path: circle(50%);
+        }
+        
+        .AlumniCards .slick-slide {
+            background-color: white;
+            color: black;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.253);
+            width: 180px !important;
+            border-radius: 10px;
+            margin: 10px 20px !important;
+            height: 200px;
+        }
+        .NewsItemContainer{
+            color: var(--color);
+        }
+        .NewsItemContainer .slick-slide {
+            margin: 10px !important;
+            box-shadow: 0 4px 10px rgb(0 0 0 / 16%);
+            background-color: white;
+            border-radius: 10px;
+            color: var(--color2);
+        }
+        
+        .PhoneNumber {
+            color: var(--color3);
+            font-size: 20px;
+            text-align: center;
+            padding: 10px 1px;
+            margin: 15px 15px 10px 0px;
+            border: 2px solid var(--color3);
+            border-radius: 30px;
+            width: 80%;
+            box-shadow: 0 4px 10px rgb(0 0 0 / 16%);
+        }
+
+        
+        
+        .primarybtn {
+            background-color: var(--color2);
+            color:var(--color4);
             padding: 10px;
             width: 20%;
             border: none;
             border-radius: 10px;
             cursor: pointer;
         }
-        
-        .IconList_icon__3 .slick-slide {
-            box-shadow: 0 4px 10px rgb(0 0 0 / 16%);
-            margin: 5px !important ;
-            border-radius: 10px;
-            width: 200px !important;
-            height: 80px;
-        }
-        .Carousel_container{
-            margin: 100px 0px 0px 0px !important;
-            border-radius: 20px 20px 0px 0px;
-            background-color:whitesmoke;
-            padding: 18px;
-        }
-        .Carousel_wrapper .slick-slide {
-            box-shadow: 0 4px 10px rgb(0 0 0 / 16%);
-            margin: 5px !important ;
-            border-radius: 10px;
-            padding: 10px !important;
-            height: 200px;
-        }
-
-        .Carousel_wrapper_6_content .slick-slide {
-            height: fit-content;
-        }
-
-
-        .Carousel_wrapper_7_content {
-            box-shadow: 0 4px 10px rgb(0 0 0 / 16%);
-            border-radius: 10px;
-            padding: 0px;
-        }
-
-        .Carousel_wrapper_7_content img {
-            border-radius: 10px;
-        }
-        .AlumniCards .dp {
-            clip-path: circle(50%);
-        }
-        .AlumniCards .slick-slide {
-            box-shadow: 0 4px 10px rgb(0 0 0 / 16%);
-            width: 180px !important;
-            border-radius: 10px;
-            margin: 10px 20px !important;
-            height: 200px;
-        }
-        .NewsItemContainer .slick-slide{
-            margin: 10px !important;
-            box-shadow: 0 4px 10px rgb(0 0 0 / 16%);
-            background-color: white;
-            border-radius: 10px;
-        }
-        .PhoneNumber {
-            color: var(--colorr);
-            font-size: 20px;
-            text-align: center;
-            padding: 10px 1px;
-            margin: 15px 15px 10px 0px;
-            border: 2px solid var(--colorr);
-            border-radius: 30px;
-            width: 80%;
-            box-shadow: 0 4px 10px rgb(0 0 0 / 16%);
-        }
+        /* footer  */
         footer ul {
             list-style: none;
         }
@@ -116,42 +165,48 @@
 
         footer a {
             text-decoration: none;
-            color: whitesmoke;
+            color: var(--color4);
         }
 
         footer a:hover {
-            color: var(--colorr);
+            color: var(--color3);
         }
-
+        
         footer a .fa:hover {
-            color: white;
+            color:var(--color3);
         }
-
-        footer button {
+        
+        footer .primarybtn  {
             height: 50px;
             width: 200px;
             border-radius: 20px;
         }
+        
         @media (max-width:590px) {
-           .Banner{
-               font-size: 7px;
-           }
-           button{
-               width: 60%;
-           }
-           .Carousel_wrapper button{
-               font-size: 14px;
-           }
-           .CompanyCards{
-               display: none;
-           }
-           .PhoneNumber{
-               font-size: 12px;
-               width: 100%;
-           }
-           
-           #footer3 ul{
-            padding: 5px;
+            .Banner {
+                font-size: 7px;
+            }
+            
+            .primarybtn {
+                width: 60%;
+            }
+            
+            .Carousel_wrapper .primarybtn {
+                font-size: 14px;
+            }
+            
+            /* !-------------------------------------------- BLOCK 9 --------------------------------------------> */
+            .CompanyCards {
+                display: none !important;
+            }
+
+            .PhoneNumber {
+                font-size: 12px;
+                width: 100%;
+            }
+
+            #footer3 ul {
+                padding: 5px;
             }
         }
     </style>
@@ -238,7 +293,7 @@
 
     <!-------------------------------------------- BLOCK 2 -------------------------------------------->
 
-    <div class="d-flex justify-content-center align-items-center flex-column p-2">
+    <div class="d-flex justify-content-center align-items-center flex-column p-2" style="background-color: var(--color4); color: var(--color);">
         <div class="row col-12 marginRight mt-3">
             <div class="d-flex justify-content-center  align-item-center col-sm-4">
                 <img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fpmv2-jobs__1638365336598.png&w=48&q=75"
@@ -259,12 +314,12 @@
                 <span>Global Universities</span>
             </div>
         </div>
-        <button>Explore Our Courses</button>
+        <button class="primarybtn">Explore Our Courses</button>
     </div>
 
     <!-------------------------------------------- BLOCK 3 -------------------------------------------->
 
-    <div class="d-flex justify-content-center align-items-center flex-column Banner .IconList_icon__3">
+    <div class="d-flex justify-content-center align-items-center flex-column Banner IconList_icon__3">
         <div class="col-sm-12 marginRight d-flex justify-content-center  align-items-center p-2">
             <div class="col marginSide">
                 <h2>Our Top University Partners</h2>
@@ -596,28 +651,28 @@
 
     <!-------------------------------------------- BLOCK 5 -------------------------------------------->
 
-    <div class="d-flex justify-content-center align-items-center flex-column Carousel_wrapper Banner" style="background-color:whitesmoke; color: white;">
+    <div class="d-flex justify-content-center align-items-center flex-column Carousel_wrapper Banner">
         <div class="row col-sm-12 marginRight d-flex justify-content-center align-items-center p-2">
             <div class="col marginSide">
                 <div class="slider center marginRight" style="width:85vw;">
                     <div
                         style="margin:0px 10px; padding:10px; width:10px !important; background-image: url(https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2F720x400_DSML__1640685198472.png&w=1920&q=75);">
-                        <button class="w-50 border border-light bg-transparent ">Explore</button>
+                        <button class="primarybtn w-50 border border-light bg-transparent ">Explore</button>
                         <h3 class="mt-5">Add a Dr. to your name in 3 years</h3>
                     </div>
                     <div
                         style="margin:0px 10px; padding:10px; width:10px !important; background-image: url(https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fmarketing__1642158907941.png&w=1920&q=75);">
-                        <button class="w-50 border border-light bg-transparent ">Know More</button>
+                        <button class="primarybtn w-50 border border-light bg-transparent ">Know More</button>
                         <h3 class="mt-5">Add a Dr. to your name in 3 years</h3>
                     </div>
                     <div
                         style="margin:0px 10px; padding:10px; width:10px !important; background-image: url(https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2F720x400_DSML__1640685198472.png&w=1920&q=75);">
-                        <button class="w-50 border border-light bg-transparent ">Learn More</button>
+                        <button class="primarybtn w-50 border border-light bg-transparent ">Learn More</button>
                         <h3 class="mt-5">Learn Full Stack from Purde University</h3>
                     </div>
                     <div
                         style="margin:0px 10px; padding:10px; width:10px !important; background-image: url(https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Flaw__1643809851236.png&w=1920&q=75);">
-                        <button class="w-50 border border-light bg-transparent ">Learn More</button>
+                        <button class="primarybtn w-50 border border-light bg-transparent ">Learn More</button>
                         <h3 class="mt-5">Learn Full Stack from Purde University</h3>
                     </div>
                 </div>
@@ -639,7 +694,8 @@
                             </h4>
                             <span>
                                 Build your foundation in one of the hottest industry of the 21st century</span>
-                            <div class="mt-2"><button class="w-50 bg-light text-info border border-info">Know More</button></div>
+                            <div class="mt-2"><button class="primarybtn w-50 bg-light text-info border border-info">Know
+                                    More</button></div>
                         </div>
                     </div>
                     <div class="col-sm-3 m-2 Carousel_wrapper_7_content">
@@ -650,7 +706,8 @@
                             </h4>
                             <span>
                                 Build your foundation in one of the hottest industry of the 21st century</span>
-                            <div class="mt-2"><button class="w-50 bg-light text-info border border-info">Know More</button></div>
+                            <div class="mt-2"><button class="primarybtn w-50 bg-light text-info border border-info">Know
+                                    More</button></div>
                         </div>
                     </div>
                     <div class="col-sm-3 m-2 Carousel_wrapper_7_content">
@@ -661,7 +718,8 @@
                             </h4>
                             <span>
                                 Build your foundation in one of the hottest industry of the 21st century</span>
-                            <div class="mt-2"><button class="w-50 bg-light text-info border border-info">Know More</button></div>
+                            <div class="mt-2"><button class="primarybtn w-50 bg-light text-info border border-info">Know
+                                    More</button></div>
                         </div>
                     </div>
                     <div class="col-sm-3 m-2 Carousel_wrapper_7_content">
@@ -672,7 +730,8 @@
                             </h4>
                             <span>
                                 Build your foundation in one of the hottest industry of the 21st century</span>
-                            <div class="mt-2"><button class="w-50 bg-light text-info border border-info">Know More</button></div>
+                            <div class="mt-2"><button class="primarybtn w-50 bg-light text-info border border-info">Know
+                                    More</button></div>
                         </div>
                     </div>
                     <div class="col-sm-3 m-2 Carousel_wrapper_7_content">
@@ -683,7 +742,8 @@
                             </h4>
                             <span>
                                 Build your foundation in one of the hottest industry of the 21st century</span>
-                            <div class="mt-2"><button class="w-50 bg-light text-info border border-info">Know More</button></div>
+                            <div class="mt-2"><button class="primarybtn w-50 bg-light text-info border border-info">Know
+                                    More</button></div>
                         </div>
                     </div>
                     <div class="col-sm-3 m-2 Carousel_wrapper_7_content">
@@ -694,18 +754,19 @@
                             </h4>
                             <span>
                                 Build your foundation in one of the hottest industry of the 21st century</span>
-                            <div class="mt-2"><button class="w-50 bg-light text-info border border-info" style="display:block">Know More</button></div>
+                            <div class="mt-2"><button class="primarybtn w-50 bg-light text-info border border-info"
+                                    style="display:block">Know More</button></div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <button>EXPLORE FREE COURSES</button>
+        <button class="primarybtn ">EXPLORE FREE COURSES</button>
     </div>
 
     <!-------------------------------------------- BLOCK 7 -------------------------------------------->
 
-    <div class="d-flex justify-content-center align-items-center flex-column">
+    <div class="d-flex justify-content-center align-items-center flex-column pb-2">
         <h2 class="mt-5">upGrad Webinars</h2>
         <div class="slider center marginRight" style="overflow: hidden; width: 80vw;">
             <div class="col-sm-3 m-2 Carousel_wrapper_7_content">
@@ -715,7 +776,8 @@
                     <h4 class="w-100">Data Science</h4>
                     <span>Discover the newest trends from data science experts, big data practitioners, and industry
                         leaders.</span>
-                    <div class="mt-2"><button class="w-50 bg-light text-info border border-info">Enroll now</button></div>
+                    <div class="mt-2"><button class="primarybtn w-50 bg-light text-info border border-info">Enroll now</button>
+                    </div>
                 </div>
             </div>
             <div class="col-sm-3 m-2 Carousel_wrapper_7_content">
@@ -725,7 +787,8 @@
                     <h4 class="w-100">Data Science</h4>
                     <span>Discover the newest trends from data science experts, big data practitioners, and industry
                         leaders.</span>
-                    <div class="mt-2"><button class="w-50 bg-light text-info border border-info">Enroll now</button></div>
+                    <div class="mt-2"><button class="primarybtn w-50 bg-light text-info border border-info">Enroll now</button>
+                    </div>
                 </div>
             </div>
             <div class="col-sm-3 m-2 Carousel_wrapper_7_content">
@@ -735,11 +798,12 @@
                     <h4 class="w-100">Data Science</h4>
                     <span>Discover the newest trends from data science experts, big data practitioners, and industry
                         leaders.</span>
-                    <div class="mt-2"><button class="w-50 bg-light text-info border border-info">Enroll now</button></div>
+                    <div class="mt-2"><button class="primarybtn w-50 bg-light text-info border border-info">Enroll now</button>
+                    </div>
                 </div>
             </div>
         </div>
-        <button>VIEW ALL UPGRAD WEBINARS</button>
+        <button class="primarybtn ">VIEW ALL UPGRAD WEBINARS</button>
     </div>
 
     <!-------------------------------------------- BLOCK 8 -------------------------------------------->
@@ -852,7 +916,8 @@
 
     <!-------------------------------------------- BLOCK 10 -------------------------------------------->
 
-    <div class="d-flex justify-content-center align-items-center flex-column NewsItemContainer Banner" style="background-color: whitesmoke;">
+    <div class="d-flex justify-content-center align-items-center flex-column NewsItemContainer Banner"
+        style="background-color: whitesmoke;">
         <div class="row col-sm-12 marginRight d-flex justify-content-center align-items-center p-2">
             <div class="col marginSide">
                 <h2>Our Top University Partners</h2>
@@ -906,22 +971,21 @@
 
     <div class="d-flex justify-content-center align-items-center flex-column">
         <div class="row col-sm-12 marginRight d-flex justify-content-center align-items-center p-2">
-                <h2 class="mt-5">upGrad Learner Support</h2>
-                <div class="col-sm-10 d-flex justify-content-center align-items-center">
-                    <div class="col PhoneNumber"><i class="fa fa-phone"
-                            style="font-size:26px;margin-right:10px ; "></i>1800 210 2020</div>
-                    <div class="col PhoneNumber"><i class="fa fa-phone"
-                            style="font-size:26px;margin-right:10px ; "></i>+91 22 6505 4631</div>
-                </div>
-                <span>Call us between 7 AM - 12 AM</span>
+            <h2 class="mt-5">upGrad Learner Support</h2>
+            <div class="col-sm-10 d-flex justify-content-center align-items-center">
+                <div class="col PhoneNumber"><i class="fa fa-phone" style="font-size:26px;margin-right:10px ; "></i>1800
+                    210 2020</div>
+                <div class="col PhoneNumber"><i class="fa fa-phone" style="font-size:26px;margin-right:10px ; "></i>+91
+                    22 6505 4631</div>
+            </div>
+            <span>Call us between 7 AM - 12 AM</span>
         </div>
     </div>
     <!-------------------------------------------- BLOCK 12 -------------------------------------------->
 
     <div class="d-flex justify-content-center align-items-center flex-column">
         <div class="row col-sm-12 marginRight d-flex justify-content-center align-items-center p-2">
-            <div class="col marginSide"
-                style="box-shadow: 0 4px 10px rgb(0 0 0 / 16%); border-radius: 8px;">
+            <div class="col marginSide" style="box-shadow: 0 4px 10px rgb(0 0 0 / 16%); border-radius: 8px; background-color: var(--color4); color: var(--color);">
                 <p class="mt-2">Disclaimer:</p>
                 <p>upGrad is India’s largest online higher education company, as per monthly visit data and total visits
                     data for the last 28 days received from similar web, as on April 13, 2020.</p>
@@ -932,7 +996,7 @@
     </div>
     <!-------------------------------------------- FOOTER-------------------------------------------->
 
-    <footer class="row text-light text-center bg-dark">
+    <footer class="row text-light text-center border-top border-light" style="background-color: var(--color);">
         <!-- footer.1  -->
         <div class="row mb-3 border-bottom border-secondary">
             <div class="col">
@@ -990,10 +1054,10 @@
             <div class="col">
                 <ul>
                     <li>
-                        <button class="border-info text-center" style="background-color: var(--colorr);">Login</button>
+                        <button class="primarybtn border-info text-center" style="background-color: var(--colorr);">Login</button>
                     </li>
                     <li>
-                        <button class="text-light text-center border-dark">Start Free Trial!</button>
+                        <button class="primarybtn text-light text-center border-dark">Start Free Trial!</button>
                     </li>
                 </ul>
             </div>
